@@ -1,4 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .header{
     display: flex;
     background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.header .nav{
+    display: flex;
+    gap: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
 }
