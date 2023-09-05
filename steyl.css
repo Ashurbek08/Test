@@ -19,3 +19,21 @@
     color: black;
     font-family: sans-serif;
 }
+.section-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.section-hero .imgBar{
+    width: 50%;
+}
+.section-hero .titleBar h3{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.425);
+}
+.section-hero .titleBar h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
